@@ -249,6 +249,7 @@ footer p {
 }
 
 /* MEDIA SECTION */
+
 @media (max-width: 960px) {
   header {
     padding: 90px 0;
@@ -308,7 +309,6 @@ footer p {
     max-width: 100%;
     display: block;
     margin: 0 auto;
-    padding: 25px;
   }
   .card-body {
     text-align: centerimg;
@@ -320,6 +320,9 @@ footer p {
   }
   .hidden {
     display: none;
+  }
+  .sub-heading {
+    text-align: center;
   }
 
   footer h3 {
