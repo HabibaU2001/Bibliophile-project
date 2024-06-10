@@ -58,8 +58,7 @@ header a {
 
 section {
   max-width: 100%;
-  margin: 0 auto;
-  padding: 100px;
+  padding: 50px;
 }
 
 p {
@@ -112,7 +111,6 @@ strong {
 section.secondary {
   background: #f8f8f8;
   font-family: "Red Hat Text", sans-serif;
-  margin: 0;
 }
 h3.text-center {
   letter-spacing: 2px;
@@ -138,6 +136,8 @@ h3.text-center {
 .grid-3-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+
+  grid-gap: 10px;
 }
 .card {
   background: white;
@@ -174,12 +174,23 @@ h3.text-center {
   margin-top: 20px;
 }
 
+.card-2 {
+  margin-top: 40px;
+}
+
 .card-footer {
   padding: 0 30px 30px;
 }
 .card-body {
   padding: 30px;
   margin: 0;
+}
+
+.secondary img {
+  width: 400px;
+  height: 250px;
+  display: block;
+  margin: 13px 15px;
 }
 
 /* FOOTER SECTION */
@@ -277,11 +288,21 @@ footer p {
   section {
     padding: 30px 0;
   }
-  .secondary-grid {
+  .grid-3-columns {
     grid-template-columns: 1fr;
-    margin: 30px;
+    display: block;
+    margin: 0 auto;
   }
 
+  .secondary img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+  }
+  .card-body {
+    text-align: center;
+  }
   footer h3 {
     font-size: 17px;
   }
