@@ -192,6 +192,16 @@ h3.text-center {
   display: block;
   margin: 13px 15px;
 }
+/*READER'S AESTHETIC */
+
+.aesthetic {
+  background: #dfd3c3;
+}
+
+mark {
+  background-color: white;
+  font-size: 25px;
+}
 
 /* FOOTER SECTION */
 
@@ -303,6 +313,15 @@ footer p {
   .card-body {
     text-align: centerimg;
   }
+
+  .aesthetic {
+    grid-template-columns: 1fr;
+    padding: 75px;
+  }
+  .hidden {
+    display: none;
+  }
+
   footer h3 {
     font-size: 17px;
   }
