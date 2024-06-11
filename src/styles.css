@@ -341,7 +341,7 @@ footer p {
 
 /* MEDIA SECTION */
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   header {
     padding: 90px 0;
   }
@@ -366,7 +366,7 @@ footer p {
   }
   .main-grid {
     grid-template-columns: 1fr;
-    margin: 27px 25px;
+    margin: 0px 25px;
   }
   main img {
     min-width: 70%;
