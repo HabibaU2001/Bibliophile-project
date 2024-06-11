@@ -232,7 +232,6 @@ h3.text-center {
 
 .aesthetic {
   background: #dfd3c3;
-  margin: 0;
 }
 
 mark {
@@ -289,6 +288,10 @@ mark.sub-heading {
 
 .aesthetic-middle {
   text-align: center;
+}
+
+.pinterest-embeds {
+  padding: 8px;
 }
 
 /* FOOTER SECTION */
