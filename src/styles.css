@@ -106,6 +106,40 @@ strong {
   color: #876464;
 }
 
+.main-highlight {
+  font-size: 22px;
+  font-family: "Red Hat Text", sans-serif;
+  background-color: #ffe79a;
+}
+.circle {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.wavy {
+  display: inline-block;
+  position: relative;
+}
+.wavy::before {
+  content: "~~~~~~~~~~~~~~~~~~~~";
+  font-size: 0.6em;
+  font-weight: 900;
+  font-family: Times New Roman, Serif;
+  color: black;
+  width: 100%;
+  position: absolute;
+  top: 16px;
+  left: -1px;
+  overflow: hidden;
+}
+
 /* BOOKSTORES IN LONDON */
 
 section.secondary {
@@ -192,6 +226,7 @@ h3.text-center {
   display: block;
   margin: 13px 15px;
 }
+
 /*READER'S AESTHETIC */
 
 .aesthetic {
@@ -294,6 +329,12 @@ footer p {
   main p {
     font-size: 18px;
     text-align: center;
+  }
+
+  .main-highlight {
+    font-size: 18px;
+    font-family: "Red Hat Text", sans-serif;
+    background-color: #ffe79a;
   }
 
   section {
