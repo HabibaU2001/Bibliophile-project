@@ -349,7 +349,7 @@ footer p {
 
 /* MEDIA SECTION */
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 90px 0;
   }
@@ -421,7 +421,7 @@ footer p {
 
   .aesthetic {
     grid-template-columns: 1fr;
-    grid-gap: 15px;
+    grid-gap: 5px;
   }
 
   .sub-heading {
