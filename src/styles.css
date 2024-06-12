@@ -292,8 +292,16 @@ mark.sub-heading {
 
 .pinterest-embeds {
   padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
 }
-
+iframe {
+  margin: 0px 5px 0px 5px;
+  width: auto;
+  height: 700px;
+  display: flex;
+  flex: 1;
+}
 /* FOOTER SECTION */
 
 .footer-grid {
@@ -408,13 +416,14 @@ footer p {
     margin: 0 auto;
   }
   .card-body {
-    text-align: centerimg;
+    text-align: center;
   }
 
   .aesthetic {
     grid-template-columns: 1fr;
-    padding: 30px;
+    grid-gap: 5px;
   }
+
   .hidden {
     display: none;
   }
@@ -423,6 +432,10 @@ footer p {
   }
   .pinterest-info {
     font-size: 18px;
+  }
+
+  iframe {
+    height: 750px;
   }
 
   footer h3 {
