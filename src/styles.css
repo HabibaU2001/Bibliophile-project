@@ -298,7 +298,7 @@ mark.sub-heading {
 iframe {
   margin: 0px 5px 0px 5px;
   width: auto;
-  height: 700px;
+
   display: flex;
   flex: 1;
 }
@@ -421,21 +421,14 @@ footer p {
 
   .aesthetic {
     grid-template-columns: 1fr;
-    grid-gap: 5px;
+    grid-gap: 15px;
   }
 
-  .hidden {
-    display: none;
-  }
   .sub-heading {
     text-align: center;
   }
   .pinterest-info {
     font-size: 18px;
-  }
-
-  iframe {
-    height: 750px;
   }
 
   footer h3 {
